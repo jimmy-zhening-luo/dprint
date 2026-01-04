@@ -5,8 +5,8 @@
   "type": "object",
   "properties": {
     "roslyn": {
-      "type": "object",
       "description": "Roslyn plugin rules for C#: https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.formatting.csharpformattingoptions#properties",
+      "type": "object",
       "properties": {
         "csharp.indentBlock": {
           "type": "boolean"
