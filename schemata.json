@@ -1,0 +1,17 @@
+{
+  "$id": "https://raw.githubusercontent.com/jimmy-zhening-luo/dprint/refs/heads/main/schemata.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JSON schema meta",
+  "type": "object",
+  "properties": {
+    "$help": {
+      "type": "string"
+    },
+    "$version": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "allowTrailingCommas": true,
+  "allowComments": true
+}
