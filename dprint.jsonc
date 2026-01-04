@@ -14,13 +14,13 @@
   "newLineKind": "lf",
   "useTabs": false,
   "plugins": [
+    // Roslyn goes here
+    "https://plugins.dprint.dev/markdown-0.20.0.wasm",
     "https://plugins.dprint.dev/typescript-0.95.13.wasm",
     "https://plugins.dprint.dev/json-0.21.1.wasm",
-    "https://plugins.dprint.dev/markdown-0.20.0.wasm",
+    "https://plugins.dprint.dev/g-plane/pretty_yaml-v0.5.1.wasm",
     "https://plugins.dprint.dev/g-plane/markup_fmt-v0.25.3.wasm",
     "https://plugins.dprint.dev/g-plane/malva-v0.15.1.wasm",
-    "https://plugins.dprint.dev/g-plane/pretty_yaml-v0.5.1.wasm",
-    "https://plugins.dprint.dev/g-plane/pretty_jinja-v0.2.0.wasm",
   ],
   "roslyn": {
     // $help: https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.formatting.csharpformattingoptions#properties
@@ -71,6 +71,19 @@
     "csharp.spacingAroundBinaryOperator": "Single" /* 0 */,
     "csharp.wrappingKeepStatementsOnSingleLine": true,
     "csharp.wrappingPreserveSingleLine": true,
+  },
+  "markdown": {
+    // $help: https://dprint.dev/plugins/markdown/config/
+    "locked": true,
+    "lineWidth": 180,
+    "newLineKind": "lf",
+    "textWrap": "maintain",
+    "emphasisKind": "underscores",
+    "strongKind": "underscores",
+    "ignoreDirective": "dprint-ignore",
+    "ignoreFileDirective": "dprint-ignore-file",
+    "ignoreStartDirective": "dprint-ignore-start",
+    "ignoreEndDirective": "dprint-ignore-end",
   },
   "typescript": {
     // $help: https://dprint.dev/plugins/typescript/
@@ -134,6 +147,13 @@
   },
   "json": {
     // $help: https://dprint.dev/plugins/json/config/
+    "associations": [
+      "**/*.json",
+      "**/*.jsonc",
+      "**/*.JSON-tmLanguage",
+      "**/*.code-snippets",
+      "**/*.code-workspace",
+    ],
     "locked": true,
     "lineWidth": 80,
     "newLineKind": "lf",
@@ -146,18 +166,29 @@
     "array.preferSingleLine": false,
     "object.preferSingleLine": false,
   },
-  "markdown": {
-    // $help: https://dprint.dev/plugins/markdown/config/
-    "locked": true,
-    "lineWidth": 180,
-    "newLineKind": "lf",
-    "textWrap": "maintain",
-    "emphasisKind": "underscores",
-    "strongKind": "underscores",
-    "ignoreDirective": "dprint-ignore",
-    "ignoreFileDirective": "dprint-ignore-file",
-    "ignoreStartDirective": "dprint-ignore-start",
-    "ignoreEndDirective": "dprint-ignore-end",
+  "yaml": {
+    // $help: https://pretty-yaml.netlify.app/
+    "associations": [
+      "**/*.yml",
+      "**/*.yaml",
+      "**/*.yml.example",
+      "**/*.yaml.example",
+      "**/*.YAML-tmLanguage",
+    ],
+    "printWidth": 180,
+    "indentWidth": 2,
+    "lineBreak": "lf",
+    "quotes": "preferDouble",
+    "trailingComma": true,
+    "formatComments": false,
+    "indentBlockSequenceInMap": true,
+    "braceSpacing": false,
+    "bracketSpacing": false,
+    "dashSpacing": "oneSpace",
+    "preferSingleLine": false,
+    "trimTrailingWhitespaces": true,
+    "trimTrailingZero": true,
+    "ignoreCommentDirective": "dprint-ignore",
   },
   "markup": {
     // $help: https://markup-fmt.netlify.app/
@@ -209,22 +240,5 @@
     "selectorOverrideCommentDirective": "malva-selector-override",
     "ignoreCommentDirective": "dprint-ignore",
     "ignoreFileCommentDirective": "dprint-ignore-file",
-  },
-  "yaml": {
-    // $help: https://pretty-yaml.netlify.app/
-    "printWidth": 180,
-    "indentWidth": 2,
-    "lineBreak": "lf",
-    "quotes": "preferDouble",
-    "trailingComma": true,
-    "formatComments": false,
-    "indentBlockSequenceInMap": true,
-    "braceSpacing": false,
-    "bracketSpacing": false,
-    "dashSpacing": "oneSpace",
-    "preferSingleLine": false,
-    "trimTrailingWhitespaces": true,
-    "trimTrailingZero": true,
-    "ignoreCommentDirective": "dprint-ignore",
   },
 }
