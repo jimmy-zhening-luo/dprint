@@ -8,6 +8,16 @@
       "description": "Roslyn plugin rules for C#: https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.formatting.csharpformattingoptions#properties",
       "type": "object",
       "properties": {
+        "locked": {
+          "type": "boolean",
+          "description": "When true, prevents changes to the formatting options from being applied."
+        },
+        "associations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
         "csharp.indentBlock": {
           "type": "boolean"
         },
