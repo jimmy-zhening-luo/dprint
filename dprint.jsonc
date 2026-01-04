@@ -178,7 +178,6 @@
     "object.preferSingleLine": false,
   },
   "jinja": {
-    "printWidth": 60,
     "argsParenSpacing": false,
     "braceSpacing": false,
     "bracketSpacing": false,
@@ -187,8 +186,20 @@
     "operatorLinebreak": "before",
     "paramsParenSpacing": false,
     "preferSingleLine": false,
+    "printWidth": 60,
     "tupleParenSpacing": false,
     "useTabs": false,
+    "trailingComma": "never",
+    "args.preferSingleLine": false,
+    "params.preferSingleLine": false,
+    "exprList.preferSingleLine": false,
+    "exprDict.preferSingleLine": false,
+    "exprTuple.preferSingleLine": false,
+    "args.trailingComma": "never",
+    "exprDict.trailingComma": "never",
+    "exprList.trailingComma": "never",
+    "exprTuple.trailingComma": "never",
+    "params.trailingComma": "never",
   },
   "yaml": {
     // $help: https://pretty-yaml.netlify.app/
