@@ -163,6 +163,7 @@
   },
   "json": {
     // $help: https://dprint.dev/plugins/json/config/
+    "locked": false,
     "associations": [
       "**/*.json",
       "**/*.jsonc",
@@ -170,7 +171,6 @@
       "**/*.code-snippets",
       "**/*.code-workspace",
     ],
-    "locked": false,
     "lineWidth": 80,
     "newLineKind": "lf",
     "useTabs": false,
