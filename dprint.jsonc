@@ -234,6 +234,11 @@
     "ignoreFileCommentDirective": "dprint-ignore-file",
   },
   "jinja": {
+    "associations": [
+      "**/*.jinja",
+      "**/*.jinja.yml",
+      "**/*.jinja.yaml",
+    ],
     "printWidth": 60,
     "argsParenSpacing": false,
     "braceSpacing": false,
