@@ -75,7 +75,7 @@
   },
   "markdown": {
     // $help: https://dprint.dev/plugins/markdown/config/
-    "locked": true,
+    "locked": false,
     "lineWidth": 180,
     "newLineKind": "lf",
     "textWrap": "maintain",
@@ -89,7 +89,7 @@
   "typescript": {
     // $help: https://dprint.dev/plugins/typescript/
     // $help: https://dprint.dev/plugins/typescript/config/
-    "locked": true,
+    "locked": false,
     "lineWidth": 180,
     "newLineKind": "lf",
     "useTabs": false,
@@ -155,7 +155,7 @@
       "**/*.code-snippets",
       "**/*.code-workspace",
     ],
-    "locked": true,
+    "locked": false,
     "lineWidth": 80,
     "newLineKind": "lf",
     "useTabs": false,
