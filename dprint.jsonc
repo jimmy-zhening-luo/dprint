@@ -246,5 +246,16 @@
   },
   "jinja": {
     "printWidth": 60,
+    "argsParenSpacing": false,
+    "braceSpacing": false,
+    "bracketSpacing": false,
+    "indentWidth": 2,
+    "lineBreak": "lf",
+    "operatorLineBreak": "before",
+    "paramsParenSpacing": false,
+    "preferSingleLine": false,
+    "trailingComma": "only-multi-line",
+    "tupleParenSpacing": false,
+    "useTabs": false,
   },
 }
