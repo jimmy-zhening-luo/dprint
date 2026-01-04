@@ -99,6 +99,12 @@
     // $help: https://dprint.dev/plugins/typescript/
     // $help: https://dprint.dev/plugins/typescript/config/
     "locked": false,
+    "associations": [
+      "**/*.js",
+      "**/*.cjs",
+      "**/*.mjs",
+      "**/*.ts",
+    ],
     "lineWidth": 180,
     "newLineKind": "lf",
     "useTabs": false,
