@@ -236,6 +236,8 @@
     "indentWidth": 2,
     "lineBreak": "lf",
     "preferSingleLine": false,
+    "flowMap.preferSingleLine": false,
+    "flowSequence.preferSingleLine": false,
     "printWidth": 180,
     "quotes": "preferDouble",
     "trailingComma": true,
