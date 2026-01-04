@@ -253,7 +253,6 @@
     "lineBreak": "lf",
     "paramsParenSpacing": false,
     "preferSingleLine": false,
-    // "trailingComma": "only-multi-line" /* dumbshit schema */,
     "tupleParenSpacing": false,
     "useTabs": false,
   },
