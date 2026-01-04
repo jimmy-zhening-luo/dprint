@@ -4,7 +4,7 @@
   "title": "dprint configuration schema",
   "allOf": [
     {
-      "$ref": "dprint://schemas/config.json"
+      "$ref": "https://dprint.dev/schemas/v0.json"
     },
     {
       "$ref": "https://raw.githubusercontent.com/jimmy-zhening-luo/dprint/refs/heads/main/schemata.json"
