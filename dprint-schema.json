@@ -1,19 +1,17 @@
 {
-  "$id": "https://raw.githubusercontent.com/jimmy-zhening-luo/dprint/refs/heads/main/dprint-schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "dprint configuration schema",
+  "$id": "https://raw.githubusercontent.com/jimmy-zhening-luo/dprint/refs/heads/main/dprint-schema.json",
+  "title": "dprint configuration file (aggregate)",
   "allOf": [
     {
       "$ref": "https://dprint.dev/schemas/v0.json"
     },
     {
-      "$ref": "https://raw.githubusercontent.com/jimmy-zhening-luo/dprint/refs/heads/main/schemata.json"
+      "$ref": "schemata.json"
     },
     {
-      "$ref": "https://raw.githubusercontent.com/jimmy-zhening-luo/dprint/refs/heads/main/dprint-schema-csharp.json"
+      "$ref": "dprint-schema-csharp.json"
     }
   ],
-  "additionalProperties": true,
-  "allowTrailingCommas": true,
   "allowComments": true
 }
