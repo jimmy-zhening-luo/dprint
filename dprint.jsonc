@@ -80,6 +80,11 @@
   "markdown": {
     // $help: https://dprint.dev/plugins/markdown/config/
     "locked": false,
+    "associations": [
+      "**/*.md",
+      "**/README",
+      "**/README.txt",
+    ],
     "lineWidth": 180,
     "newLineKind": "lf",
     "textWrap": "maintain",
