@@ -254,7 +254,7 @@
     "operatorLineBreak": "before",
     "paramsParenSpacing": false,
     "preferSingleLine": false,
-    "trailingComma": "only-multi-line",
+    // "trailingComma": "only-multi-line" /* dumbshit schema */,
     "tupleParenSpacing": false,
     "useTabs": false,
   },
