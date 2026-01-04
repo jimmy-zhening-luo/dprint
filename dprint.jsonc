@@ -88,8 +88,7 @@
     "whileStatement.spaceAfterWhileKeyword": true,
   },
   "roslyn": {
-    // $help: https://learn.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.csharp.formatting.csharpformattingoptions#properties
-    // DOC:[source] https://github.com/dotnet/roslyn/blob/main/src/Workspaces/CSharp/Portable/Formatting/CSharpFormattingOptions.cs
+    // $help: https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.formatting.csharpformattingoptions#properties
     "csharp.indentBlock": true,
     "csharp.indentBraces": false,
     "csharp.indentSwitchSection": true,
