@@ -20,8 +20,8 @@
     "https://plugins.dprint.dev/json-0.21.1.wasm",
     "https://plugins.dprint.dev/g-plane/markup_fmt-v0.25.3.wasm",
     "https://plugins.dprint.dev/g-plane/malva-v0.15.1.wasm",
-    "https://plugins.dprint.dev/g-plane/pretty_yaml-v0.5.1.wasm",
     "https://plugins.dprint.dev/g-plane/pretty_jinja-v0.2.0.wasm",
+    "https://plugins.dprint.dev/g-plane/pretty_yaml-v0.5.1.wasm",
   ],
   "roslyn": {
     // $help: https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.formatting.csharpformattingoptions#properties
@@ -218,6 +218,18 @@
     "ignoreCommentDirective": "dprint-ignore",
     "ignoreFileCommentDirective": "dprint-ignore-file",
   },
+  "jinja": {
+    "printWidth": 60,
+    "argsParenSpacing": false,
+    "braceSpacing": false,
+    "bracketSpacing": false,
+    "indentWidth": 2,
+    "lineBreak": "lf",
+    "paramsParenSpacing": false,
+    "preferSingleLine": false,
+    "tupleParenSpacing": false,
+    "useTabs": false,
+  },
   "yaml": {
     // $help: https://pretty-yaml.netlify.app/
     "associations": [
@@ -243,17 +255,5 @@
     "trailingComma": true,
     "trimTrailingWhitespaces": true,
     "trimTrailingZero": true,
-  },
-  "jinja": {
-    "printWidth": 60,
-    "argsParenSpacing": false,
-    "braceSpacing": false,
-    "bracketSpacing": false,
-    "indentWidth": 2,
-    "lineBreak": "lf",
-    "paramsParenSpacing": false,
-    "preferSingleLine": false,
-    "tupleParenSpacing": false,
-    "useTabs": false,
   },
 }
