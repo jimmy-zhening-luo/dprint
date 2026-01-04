@@ -10,9 +10,10 @@
       "properties": {
         "locked": {
           "type": "boolean",
-          "description": "When true, prevents changes to the formatting options from being applied."
+          "description": "Whether the configuration is not allowed to be overridden or extended."
         },
         "associations": {
+          "description": "An array of file glob patterns (e.g. '**/*.cs') to be in scope for the Roslyn plugin.",
           "type": "array",
           "items": {
             "type": "string"
@@ -34,7 +35,15 @@
           "type": "boolean"
         },
         "csharp.labelPositioning": {
-          "$ref": "#/$defs/position"
+          "description": "Options for label positioning. 0: LeftMost, 1: OneLess, 2: NoIndent",
+          "enum": [
+            "LeftMost",
+            "OneLess",
+            "NoIndent",
+            0,
+            1,
+            2
+          ]
         },
         "csharp.newLineForCatch": {
           "type": "boolean"
@@ -151,7 +160,15 @@
           "type": "boolean"
         },
         "csharp.spacingAroundBinaryOperator": {
-          "$ref": "#/$defs/spacing"
+          "description": "Options for spacing around binary operators. 0: Single, 1: Ignore, 2: Remove",
+          "enum": [
+            "Single",
+            "Ignore",
+            "Remove",
+            0,
+            1,
+            2
+          ]
         },
         "csharp.wrappingKeepStatementsOnSingleLine": {
           "type": "boolean"
@@ -163,28 +180,6 @@
       "additionalProperties": false,
       "allowTrailingCommas": true,
       "allowComments": true
-    }
-  },
-  "$defs": {
-    "position": {
-      "enum": [
-        "LeftMost",
-        "OneLess",
-        "NoIndent",
-        0,
-        1,
-        2
-      ]
-    },
-    "spacing": {
-      "enum": [
-        "Single",
-        "Ignore",
-        "Remove",
-        0,
-        1,
-        2
-      ]
     }
   },
   "additionalProperties": true,
