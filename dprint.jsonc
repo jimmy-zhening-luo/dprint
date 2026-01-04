@@ -242,4 +242,7 @@
     "trimTrailingZero": true,
     "ignoreCommentDirective": "dprint-ignore",
   },
+  "jinja": {
+    "printWidth": 60,
+  },
 }
