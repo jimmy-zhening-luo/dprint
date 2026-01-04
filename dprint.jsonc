@@ -24,9 +24,6 @@
     "https://plugins.dprint.dev/roslyn-0.19.1.json@a5daf2404c57680374f255c78f1956916482aa4b4e90825f1a48eb5a7e343b35",
   ],
   "typescript": {
-    "associations": [
-      "**/*.cs",
-    ],
     // $help: https://dprint.dev/plugins/typescript/
     // $help: https://dprint.dev/plugins/typescript/config/
     "locked": true,
