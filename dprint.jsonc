@@ -24,7 +24,6 @@
     "https://plugins.dprint.dev/g-plane/pretty_yaml-v0.5.1.wasm",
   ],
   "roslyn": {
-    // $help: https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.formatting.csharpformattingoptions#properties
     "locked": true,
     "csharp.indentBlock": true,
     "csharp.indentBraces": false,
@@ -34,7 +33,7 @@
     "csharp.newLineForElse": true,
     "csharp.newLineForCatch": true,
     "csharp.newLineForFinally": true,
-    "csharp.labelPositioning": "LeftMost" /* 0 */,
+    "csharp.labelPositioning": "LeftMost",
     "csharp.newLineForClausesInQuery": true,
     "csharp.spaceAfterCast": false,
     "csharp.newLineForMembersInAnonymousTypes": true,
@@ -70,7 +69,7 @@
     "csharp.spaceWithinOtherParentheses": false,
     "csharp.spaceWithinSquareBrackets": false,
     "csharp.spacingAfterMethodDeclarationName": false,
-    "csharp.spacingAroundBinaryOperator": "Single" /* 0 */,
+    "csharp.spacingAroundBinaryOperator": "Single",
     "csharp.wrappingKeepStatementsOnSingleLine": true,
     "csharp.wrappingPreserveSingleLine": true,
   },
