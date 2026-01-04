@@ -4,6 +4,9 @@
   "title": "dprint configuration file (aggregate)",
   "allOf": [
     {
+      "$ref": "dprint://schemas/config.json"
+    },
+    {
       "$ref": "https://dprint.dev/schemas/v0.json"
     },
     {
