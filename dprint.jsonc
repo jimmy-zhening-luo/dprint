@@ -251,7 +251,6 @@
     "bracketSpacing": false,
     "indentWidth": 2,
     "lineBreak": "lf",
-    "operatorLineBreak": "before",
     "paramsParenSpacing": false,
     "preferSingleLine": false,
     // "trailingComma": "only-multi-line" /* dumbshit schema */,
