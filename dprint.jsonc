@@ -24,7 +24,6 @@
     "https://plugins.dprint.dev/g-plane/pretty_yaml-v0.5.1.wasm",
   ],
   "roslyn": {
-    "locked": true,
     "csharp.indentBlock": true,
     "csharp.indentBraces": false,
     "csharp.indentSwitchSection": true,
