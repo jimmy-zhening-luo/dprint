@@ -7,21 +7,7 @@
       "$ref": "dprint://schemas/config.json"
     },
     {
-      "type": "object",
-      "properties": {
-        "$schema": {
-          "type": "string"
-        },
-        "$help": {
-          "type": "string"
-        },
-        "$version": {
-          "type": "string"
-        }
-      },
-      "additionalProperties": true,
-      "allowTrailingCommas": true,
-      "allowComments": true
+      "$ref": "https://raw.githubusercontent.com/jimmy-zhening-luo/dprint/refs/heads/main/schemata.json"
     },
     {
       "$ref": "https://raw.githubusercontent.com/jimmy-zhening-luo/dprint/refs/heads/main/dprint-schema-csharp.json"
