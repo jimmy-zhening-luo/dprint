@@ -26,9 +26,6 @@
   "roslyn": {
     // $help: https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.formatting.csharpformattingoptions#properties
     "locked": true,
-    "associations": [
-      "**/*.cs",
-    ],
     "csharp.indentBlock": true,
     "csharp.indentBraces": false,
     "csharp.indentSwitchSection": true,
