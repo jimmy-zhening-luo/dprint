@@ -184,6 +184,7 @@
     "bracketSpacing": false,
     "indentWidth": 2,
     "lineBreak": "lf",
+    "operatorLinebreak": "before",
     "paramsParenSpacing": false,
     "preferSingleLine": false,
     "tupleParenSpacing": false,
