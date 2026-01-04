@@ -18,10 +18,10 @@
     "https://plugins.dprint.dev/markdown-0.20.0.wasm",
     "https://plugins.dprint.dev/typescript-0.95.13.wasm",
     "https://plugins.dprint.dev/json-0.21.1.wasm",
-    "https://plugins.dprint.dev/g-plane/markup_fmt-v0.25.3.wasm",
-    "https://plugins.dprint.dev/g-plane/malva-v0.15.1.wasm",
     "https://plugins.dprint.dev/g-plane/pretty_jinja-v0.2.0.wasm",
     "https://plugins.dprint.dev/g-plane/pretty_yaml-v0.5.1.wasm",
+    "https://plugins.dprint.dev/g-plane/markup_fmt-v0.25.3.wasm",
+    "https://plugins.dprint.dev/g-plane/malva-v0.15.1.wasm",
   ],
   "roslyn": {
     "csharp.indentBlock": true,
@@ -178,11 +178,6 @@
     "object.preferSingleLine": false,
   },
   "jinja": {
-    "associations": [
-      "**/*.jinja",
-      "**/*.jinja.yml",
-      "**/*.jinja.yaml",
-    ],
     "printWidth": 60,
     "argsParenSpacing": false,
     "braceSpacing": false,
@@ -196,13 +191,6 @@
   },
   "yaml": {
     // $help: https://pretty-yaml.netlify.app/
-    "associations": [
-      "**/*.yml",
-      "**/*.yaml",
-      "**/*.yml.example",
-      "**/*.yaml.example",
-      "**/*.YAML-tmLanguage",
-    ],
     "braceSpacing": false,
     "bracketSpacing": false,
     "dashSpacing": "oneSpace",
