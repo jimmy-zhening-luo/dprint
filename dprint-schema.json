@@ -10,7 +10,7 @@
       "$ref": "https://dprint.dev/schemas/v0.json"
     },
     {
-      "$ref": "schemata.json"
+      "$ref": "https://raw.githubusercontent.com/jzni/schema/main/meta.json"
     },
     {
       "$ref": "dprint-schema-csharp.json"
