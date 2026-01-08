@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jimmy-zhening-luo/dprint/refs/heads/main/dprint-schema.json",
+  "$schema": "https://raw.githubusercontent.com/jimmy-zhening-luo/dprint/main/dprint-schema.json",
   // $help: https://dprint.dev/config/
   "excludes": [
     "**/node_modules/",
