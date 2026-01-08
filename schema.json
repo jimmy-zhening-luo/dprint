@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/jimmy-zhening-luo/dprint/refs/heads/main/dprint-schema.json",
+  "$id": "https://raw.githubusercontent.com/jimmy-zhening-luo/dprint/refs/heads/main/schema.json",
   "title": "dprint configuration file (aggregate)",
   "allOf": [
     {
