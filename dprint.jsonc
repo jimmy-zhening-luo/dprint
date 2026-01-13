@@ -14,7 +14,6 @@
   "newLineKind": "lf",
   "useTabs": false,
   "plugins": [
-    // Roslyn goes here
     "https://plugins.dprint.dev/markdown-0.20.0.wasm",
     "https://plugins.dprint.dev/typescript-0.95.13.wasm",
     "https://plugins.dprint.dev/json-0.21.1.wasm",
