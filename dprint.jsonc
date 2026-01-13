@@ -24,6 +24,7 @@
     "https://plugins.dprint.dev/g-plane/malva-v0.15.1.wasm",
   ],
   "roslyn": {
+    "excludes": false,
     "csharp.indentBlock": true,
     "csharp.indentBraces": false,
     "csharp.indentSwitchSection": true,
