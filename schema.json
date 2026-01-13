@@ -13,7 +13,7 @@
       "$ref": "https://raw.githubusercontent.com/jzni/schema/main/meta.json"
     },
     {
-      "$ref": "plugin/dprint-schema-csharp.json"
+      "$ref": "plugin/schema-csharp.json"
     }
   ],
   "allowComments": true
