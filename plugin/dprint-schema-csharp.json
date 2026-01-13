@@ -8,17 +8,6 @@
       "description": "Roslyn plugin rules for C#: https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.formatting.csharpformattingoptions#properties",
       "type": "object",
       "properties": {
-        "locked": {
-          "type": "boolean",
-          "description": "Whether the configuration is not allowed to be overridden or extended."
-        },
-        "associations": {
-          "description": "An array of file glob patterns (e.g. '**/*.cs') to be in scope for the Roslyn plugin.",
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
         "csharp.indentBlock": {
           "type": "boolean"
         },
