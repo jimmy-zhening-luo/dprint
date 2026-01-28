@@ -158,13 +158,6 @@
   },
   "yaml": {
     // $help: https://pretty-yaml.netlify.app/
-    "associations": [
-      "**/*.yml",
-      "**/*.yaml",
-      "**/*.yml.example",
-      "**/*.yaml.example",
-      "**/*.YAML-tmLanguage",
-    ],
     "braceSpacing": false,
     "bracketSpacing": false,
     "dashSpacing": "oneSpace",
