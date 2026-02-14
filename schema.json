@@ -7,6 +7,29 @@
       "$ref": "dprint://schemas/config.json"
     },
     {
+      "type": "object",
+      "properties": {
+        "jinja": {
+          "type": "object",
+          "properties": {
+            "operatorLineBreak": {
+              "type": "string",
+              "enum": [
+                "WRONG CASING DO NOT CONFIGURE: dumbass g-plane bug"
+              ]
+            },
+            "operatorLinebreak": {
+              "type": "string",
+              "enum": [
+                "before",
+                "after"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
       "$ref": "https://raw.githubusercontent.com/jzni/schema/main/meta.json"
     },
     {
