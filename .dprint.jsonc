@@ -135,6 +135,7 @@
     "object.preferSingleLine": false,
   },
   "toml": {
+    "locked": false,
     "useTabs": true,
     "comment.forceLeadingSpace": true,
     "cargo.applyConventions": false,
