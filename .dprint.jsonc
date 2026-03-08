@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/jimmy-zhening-luo/dprint/refs/heads/main/schema.json",
-  // $help: https://dprint.dev/config/
+  //$help: https://dprint.dev/config/
   "excludes": [
     "**/node_modules/",
     "**/*-lock.json",
@@ -29,7 +29,7 @@
     "https://plugins.dprint.dev/g-plane/malva-v0.15.2.wasm",
   ],
   "markdown": {
-    // $help: https://dprint.dev/plugins/markdown/config/
+    //$help: https://dprint.dev/plugins/markdown/config/
     "locked": false,
     "associations": [
       "**/*.md",
@@ -49,8 +49,8 @@
     "ignoreEndDirective": "dprint-ignore-end",
   },
   "typescript": {
-    // $help: https://dprint.dev/plugins/typescript/
-    // $help: https://dprint.dev/plugins/typescript/config/
+    //$help: https://dprint.dev/plugins/typescript/
+    //$help: https://dprint.dev/plugins/typescript/config/
     "locked": false,
     "associations": [
       "**/*.js",
@@ -115,7 +115,7 @@
     "whileStatement.spaceAfterWhileKeyword": true,
   },
   "json": {
-    // $help: https://dprint.dev/plugins/json/config/
+    //$help: https://dprint.dev/plugins/json/config/
     "locked": false,
     "associations": [
       "**/*.json",
@@ -166,7 +166,7 @@
     "params.trailingComma": "never",
   },
   "yaml": {
-    // $help: https://pretty-yaml.netlify.app/
+    //$help: https://pretty-yaml.netlify.app/
     "braceSpacing": false,
     "bracketSpacing": false,
     "dashSpacing": "oneSpace",
@@ -186,7 +186,7 @@
     "trimTrailingZero": true,
   },
   "markup": {
-    // $help: https://markup-fmt.netlify.app/
+    //$help: https://markup-fmt.netlify.app/
     "printWidth": 180,
     "useTabs": false,
     "indentWidth": 2,
@@ -210,7 +210,7 @@
     "ignoreFileCommentDirective": "dprint-ignore-file",
   },
   "malva": {
-    // $help: https://malva.netlify.app/config/index.html
+    //$help: https://malva.netlify.app/config/index.html
     "printWidth": 180,
     "useTabs": false,
     "indentWidth": 2,
